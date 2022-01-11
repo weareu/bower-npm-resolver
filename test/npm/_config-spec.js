@@ -24,8 +24,8 @@
 
 'use strict';
 
-const requireg = require('requireg');
-const npm = requireg('npm');
+//const requireg = require('requireg');
+const npm = require('npm');
 const npmConfig = require('../../src/npm/_config');
 
 describe('config', () => {

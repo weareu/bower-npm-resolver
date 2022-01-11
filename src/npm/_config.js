@@ -24,8 +24,8 @@
 
 'use strict';
 
-const requireg = require('requireg');
-const npm = requireg('npm');
+//const requireg = require('requireg');
+const npm = require('npm');
 
 /**
  * Get npm options as a flat object.
