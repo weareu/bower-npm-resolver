@@ -44,7 +44,7 @@ describe('bower-utils', () => {
 
   it('should create json file from package json', (done) => {
     const config = {
-      name: 'bower-npm-resolver2',
+      name: 'bower-npm-resolver',
       description: 'This is a fake module',
       main: 'src/resolver.js',
       moduleType: ['amd', 'globals', 'node'],
