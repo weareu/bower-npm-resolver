@@ -28,8 +28,8 @@ const path = require('path');
 const fs = require('fs');
 const semver = require('semver');
 const Q = require('q');
-//const requireg = require('requireg');
-const npm = require('npm');
+const requireg = require('requireg');
+const npm = requireg('npm');
 
 const npmLoad = require('./_load');
 const npmConfig = require('./_config');
